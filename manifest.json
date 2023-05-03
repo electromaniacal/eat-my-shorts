@@ -1,0 +1,16 @@
+{
+    "name": "Eat My Shorts",
+    "description": "This extension redirects links to Youtube Shorts to open like normal videos.",
+    "icons": {
+        "250": "icons/shorts-suck-250.png"
+    },
+    "version": "0.2.1",
+    "manifest_version": 2,
+    "background": {"scripts":["background.js"]},
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://www.youtube.com/*",
+        "https://www.youtube.com/*"
+    ]
+}
